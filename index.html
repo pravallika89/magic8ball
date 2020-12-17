@@ -1,11 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>magic8ball</title>
+  <title>Magic8ball</title>
 </head>
+<link rel="stylesheet" href="css/styles.css">
 <body>
-  <script src="js/script.js"></script>
+  <!-- Creating header -->
+  <div class="header">
+    <div class="inner_header">
+      <div class="logo_container">
+        <h1>MAGIC <img class="logo" src="img/MAGIC8BALL.gif" alt="logo"> BALL</h1>
+      </div>
+      <ul class="navigation">
+          <a><li>Home</li></a>
+          <a><li>About</li></a>
+          <a><li>Contact</li></a>
+      </ul>
+    </div>
+  </div>
+   <!-- ****Creating header**** -->
+  <div id="container">
+    <p id="info"> Ask me a question and click on the ask button </p>
+    <input type="text" id="question" placeholder="Ask your question here">
+    <p id="question-text"></p>
+    <button id="eight-ball" >ASK</button><br>
+    <div id="answers">  
+    </div>
+  </div>
+
+ 
+  <script src=js/script.js></script>
 </body>
 </html>
